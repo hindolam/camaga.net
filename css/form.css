@@ -1,0 +1,276 @@
+form {
+	padding:1em;
+	text-align:left;
+}
+
+fieldset {
+	margin:1em 2em;
+	padding: 1em;
+	border:none;
+	border-top: 1px dotted #E8E8E8;
+	line-height: 1.5em;
+}
+
+legend {
+	margin: 1em 0;
+	padding: 0;
+	color : #417781;
+	background: transparent;
+	font-size:1.3em;
+	font-weight: bold;
+}
+
+div {
+	overflow: hidden;
+}
+
+fieldset table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: left;
+	margin:0;
+}
+
+
+fieldset.artist-info  table {
+	width: 60%;
+}
+
+fieldset.songs-info  table {
+	width: 100%;
+}
+
+fieldset td, fieldset th {
+	padding: 0px 5px 2px 0px;
+}
+
+fieldset thead {
+	border: none;
+}
+
+fieldset.artist-info tr, fieldset.songs-info tr {
+	border: none; 	
+}
+
+/* artist-info */
+
+fieldset td:nth-of-type(2), fieldset th:nth-of-type(2) {
+	text-align: right;
+	padding-right: 10px;
+}
+
+fieldset.artist-info td:nth-of-type(1), fieldset.artist-info th:nth-of-type(1) {
+	width: 10%;
+}
+
+fieldset.artist-info td:nth-of-type(2), fieldset.artist-info th:nth-of-type(2) {
+	width: 6%;
+}
+
+fieldset.artist-info td:nth-of-type(3), fieldset.artist-info th:nth-of-type(3) {
+	width: 42%;
+}
+
+fieldset.artist-info td:nth-of-type(4), fieldset.artist-info td:nth-of-type(4) {
+	width: 42%;
+}
+
+/* songs-info */
+fieldset.songs-info td:nth-of-type(1), fieldset.songs-info th:nth-of-type(1) {
+	width: 8%;
+}
+
+fieldset.songs-info td:nth-of-type(2), fieldset.songs-info th:nth-of-type(2) {
+	width: 4%;
+}
+
+fieldset.songs-info td:nth-of-type(3), fieldset.songs-info th:nth-of-type(3) {
+	width: 22%;
+}
+
+fieldset.songs-info td:nth-of-type(4), fieldset.songs-info th:nth-of-type(4) {
+	width: 22%;
+}
+
+fieldset.songs-info td:nth-of-type(5), fieldset.songs-info th:nth-of-type(5) {
+	width: 22%;
+}
+fieldset.songs-info td:nth-of-type(6), fieldset.songs-info th:nth-of-type(6) {
+	width: 22%;
+}
+
+label {
+	float:left;
+	padding-right: 14px;
+}
+
+input[type="text"], input[type="date"], input[type="time"] {
+	background-color: white;
+	border: 1px solid #cccccc;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;	
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: middle;	
+	width: 200px;
+}
+
+input[type="date"] {
+	width: 140px;
+}
+
+input[type="time"] {
+	width: 80px;
+}
+
+input[name="detail"] {
+	width: 600px;
+}
+
+textarea:focus, input:focus {
+    outline: 0px none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.075) inset, 2px 2px 8px rgba(65, 65, 65, 0.6);
+    border-color: rgba(65, 119, 129, 0.6);
+}
+
+fieldset div select {
+	padding: 1px;
+}
+
+div.fm-multi div {
+	margin:5px 0;
+}
+
+div.fm-multi input {
+	width:1em;
+}
+
+div.fm-multi label {
+	display:block;
+	width:200px;
+	padding-left:5em;
+	text-align:left;
+}
+
+#fm-submit {
+	clear:both;
+	padding-top:1em;
+	text-align:center;
+}
+
+a.button, a.button:visited, a.button:link, a.button:active, button, input[type='submit'] {
+	display: block;
+	padding:2px 1em;
+	background: #417781;
+	color:#FFFDEE;
+	margin-left: 20px;
+	font-size:100%;
+	float:right;	
+	text-decoration: none;
+	width: 10em;
+	border: none;
+	line-height: 1.7em;
+	text-align: center;
+}
+
+.insertRowButton, .deleteRowButton {
+	background: #417781;
+	color:#FFFDEE;
+	font-size:100%;
+	text-decoration: none;
+	border: none;
+	text-align: center;
+	width: 24px;
+	padding: 2px 4px;
+	margin-right: 4px;
+}
+
+
+button:hover, input[type='submit']:hover {
+	font-weight: bold;
+}	
+
+header a.button {
+	margin: 0;
+}
+
+fieldset div.fm-req {
+	font-weight:bold;
+}
+
+fieldset div. fm-req label:before {
+	content:"* ";
+}
+
+p#fm-intro {
+	margin:0;
+}
+
+#files {
+	margin-bottom: 10px;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 0 5px 0 0;
+}
+
+
+/* 
+
+Microsoft Metro UI submit button
+ 
+ 
+ <input type="submit" name="SI" id="idSIButton9" value="Sign in" class="default">
+ 
+ 
+:root input.default[type="button"], *:root input.default[type="submit"] {
+    background-color: #0072C6;
+}
+:root input.default[type="button"], *:root input.default[type="submit"], *:root button.default {
+    color: #FFFFFF;
+}
+:root input[type="button"], *:root input[type="submit"], *:root button {
+    border: 0 none;
+    font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial;
+    font-size: 100%;
+    height: 2.142em;
+    min-width: 6em;
+    padding: 3px 12px 5px;
+}
+
+
+
+:root input[type="button"], *:root input[type="submit"], *:root button {
+    background-color: rgba(182, 182, 182, 0.7);
+    border: 0 none;
+    color: #212121;
+    font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Medium","Helvetica Neue",Arial;
+    font-size: 100%;
+    height: 2.142em;
+    min-width: 6em;
+    padding: 3px 12px 5px;
+}
+* {
+    line-height: 142%;
+} 
+ 
+ 
+* 
+* 
+* {
+    line-height: 142%;
+}
+
+*/

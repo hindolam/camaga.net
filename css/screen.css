@@ -1,0 +1,74 @@
+/*
+Colors used 
+	#417781		dark green			header
+	#7ABD9E		green				
+	#D2E6A1 	light green			highlight	
+	#FEFBB6		dark yellow
+	#FFFDEE		light yellow		body background
+*/
+
+html { 
+	font-size: 62.5%; 
+} 
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #FFFDEE;
+}
+
+
+#content, #page-wrap {
+	margin: 0 auto;
+	max-width: 1024px;	
+	padding: 0 2rem 0px 2rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+	margin: 1.6rem 0;
+	font-weight: normal;
+}
+
+article li {
+	margin: 20px 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.img-left, .img-right {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 15rem;
+}
+
+.img-left {
+	float:left;
+	margin-right: 5px;
+}
+
+.img-right {
+	float:right;
+	margin-left: 5px;
+}
+
+.note {
+	font-style: italic;
+	color: #7ABD9E;
+}
+
+i {
+	padding-right : .5rem;
+}
+
+/* new content */
+

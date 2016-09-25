@@ -1,0 +1,111 @@
+BODY {
+	MARGIN: 0px
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 30px; COLOR: #d9895d; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+.headlines {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #d9895d; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.headlines:visited {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.headlines:link {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.headlines:active {
+	COLOR: #d9895d; TEXT-DECORATION: underline
+}
+A.headlines:hover {
+	COLOR: #d9895d; TEXT-DECORATION: underline
+}
+.subheadlines {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #f4ab15; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.subheadlines:visited {
+	COLOR: #d68d08; TEXT-DECORATION: none
+}
+A.subheadlines:link {
+	COLOR: #d68d08; TEXT-DECORATION: none
+}
+A.subheadlines:active {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BACKGROUND: #883917; BORDER-LEFT: 1px; COLOR: #f4ab15; BORDER-BOTTOM: 1px; TEXT-DECORATION: underline
+}
+A.subheadlines:hover {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BACKGROUND: #883917; BORDER-LEFT: 1px; COLOR: #f4ab15; BORDER-BOTTOM: 1px; TEXT-DECORATION: underline
+}
+.contentsubheadlines {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #d9895d; FONT-FAMILY: trebuchet ms, tahoma, Arial, Helvetica, verdana, sans-seri1f
+}
+A.contentsubheadlines:visited {
+	COLOR: #d68d08; TEXT-DECORATION: none
+}
+A.contentsubheadlines:link {
+	COLOR: #d68d08; TEXT-DECORATION: none
+}
+A.contentsubheadlines:active {
+	COLOR: #d9895d; TEXT-DECORATION: underline
+}
+A.contentsubheadlines:hover {
+	COLOR: #d9895d; TEXT-DECORATION: underline
+}
+.innercontent {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #9c731a; LINE-HEIGHT: 18px; FONT-FAMILY: trebuchet ms, tahoma, Arial, Verdana, Helvetica, sans-seri1f
+}
+A.innercontent:visited {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.innercontent:link {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.innercontent:active {
+	COLOR: #9c731a; TEXT-DECORATION: underline
+}
+A.innercontent:hover {
+	COLOR: #9c731a; TEXT-DECORATION: underline
+}
+.link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #006da6; FONT-FAMILY: verdana, Arial, Helvetica, sans-seri1f
+}
+A.link:visited {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.link:link {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.link:active {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+A.link:hover {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+.alink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cc0000; FONT-FAMILY: verdana, Arial, Helvetica, sans-seri1f
+}
+A.alink:visited {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.alink:link {
+	COLOR: #006da6; TEXT-DECORATION: none
+}
+A.alink:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.alink:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+.alink1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fcff00; FONT-FAMILY: verdana, Arial, Helvetica, sans-seri1f
+}
+A.alink1:visited {
+	COLOR: #fcff00; TEXT-DECORATION: none
+}
+A.alink1:link {
+	COLOR: #fcff00; TEXT-DECORATION: none
+}
+A.alink1:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.alink1:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}

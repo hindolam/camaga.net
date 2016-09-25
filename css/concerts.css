@@ -1,0 +1,194 @@
+/*
+Colors used 
+	#417781		dark green			header
+	#7ABD9E		green				
+	#D2E6A1 	light green			highlight	
+	#FEFBB6		dark yellow
+	#FFFDEE		light yellow		body background
+*/
+
+.list-concert-box, .concert-box, form#concert {
+	margin: 1rem auto;
+	padding: 0px 0px 1rem 0px;
+	display: block;
+	background: -moz-linear-gradient(left, #FFFFF1, #FFFDF3);    
+	background: -webkit-gradient(linear, left center, right center, from(#FFFFF1), to(#FFFDF3));
+	
+}
+/*
+.list-concert-box {
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.list-concert-box:first-child {
+	border-top: 1px solid #E8E8E8;
+}
+*/
+.event-box {
+	overflow: auto;
+}
+
+.date-box, .artist-venue-box, .photo-box {
+	float: left;
+}
+	
+.venue-box, .artist-box, .photo-box {
+	padding: 1.5rem;
+}
+
+.date-box {
+	padding-top: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.date-box {
+	border-right: 1px dotted #E8E8E8;
+}
+
+.date-box {
+	overflow: hidden;
+}
+
+.month-day, .month {
+	border-right : 1px solid #E6E2D9;
+	border-left: 1px solid #E6E2D9;
+}
+
+.month-day { 
+	position: relative;
+	font-size: 2.4rem;
+	text-align: center;
+	width: 5.6rem;
+	padding: 2px;
+	background-color: #FFFDEE;
+	border-bottom : 1px solid #E6E2D9;
+	box-shadow: 2px 2px 2px #DDD;
+}
+ 
+.month { 
+	position: relative;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: .16rem;
+	text-align: center;
+	width: 5.6rem;
+	padding: 5px 2px 3px 2px;
+	background-color: #D2E6A1;
+	border-top : 1px solid #E6E2D9;	
+}
+ 
+.year { 
+	top: 4rem;
+	float: right;
+	position: relative;
+	
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	
+	/* Future */	
+	transform: rotate(-90deg);
+}
+
+.non-year-box {
+	float: left;
+}
+
+.week-day, .time, .year { 
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.time {
+	padding-top: 2px;
+}
+
+.week-day {
+	padding-bottom: 1px;
+}
+
+.artist {
+	color: #417781;
+}
+
+.instrument {
+	font-size: 0.9em;
+	padding: 0 0.8em 0 0.15em; 
+}
+
+.songlist {
+	padding-bottom: 3em;
+	margin: 0 auto;
+	clear: both;
+	word-wrap: break-word;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0 auto;
+}
+
+thead {
+	border-bottom: 1px solid #7ABD9E;
+}
+
+tr {
+	border-bottom: 1px dotted #E8E8E8; 	
+}
+
+tbody tr:last-child {
+	border-bottom: 1px solid #DBD3A9; 	
+}
+
+tr.active {
+	background: #FEFBB6;
+}
+
+th, td {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	vertical-align: middle;		
+}
+
+th {
+	font-weight: bold;
+	color: #417781;
+}
+
+.message {
+	margin: 5px auto 0px auto;
+	padding: 5px;
+	text-align: center;
+	background: #D2E6A1;
+}
+
+.concert-list-table {
+	display: none;
+}
+
+.concert-year-button img {
+	padding-right: 5px;
+}
+
+.concert-list-table a:hover {
+	font-weight: normal;
+}
+
+.detail-box {
+	float: left;
+	padding-bottom: 1.5rem;
+}
+

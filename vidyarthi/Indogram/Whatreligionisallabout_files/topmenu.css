@@ -1,0 +1,33 @@
+UNKNOWN {
+	OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 20px; BORDER-BOTTOM: #fff 1px solid
+}
+#glowingtabs UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://www.ChennaiLiveNews.com/test/images/glowtab-left.gif) repeat-x left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; HEIGHT: 25px
+}
+#glowingtabs LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+#glowingtabs A {
+	BORDER-RIGHT: #dfdede 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(/images/glowtab-left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #dfdede 1px solid; COLOR: #000; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#glowingtabs A SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 1px; FONT-WEIGHT: bold; BACKGROUND: url(/images/glowtab.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 5px; COLOR: #3b3b3b; PADDING-TOP: 5px
+}
+#glowingtabs A SPAN {
+	FLOAT: none
+}
+#glowingtabs A:hover SPAN {
+	COLOR: #fff
+}
+#glowingtabs #current A {
+	BACKGROUND-POSITION: 0px -25px
+}
+#glowingtabs #current A SPAN {
+	BACKGROUND-POSITION: 100% -25px; COLOR: #fff
+}
+#glowingtabs A:hover {
+	BACKGROUND-POSITION: 0% -25px
+}
+#glowingtabs A:hover SPAN {
+	BACKGROUND-POSITION: 100% -25px
+}

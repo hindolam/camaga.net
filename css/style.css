@@ -1,0 +1,280 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 1rem 0;
+	font-weight: bold;
+	color: #417781;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #417781;
+}
+
+h1, h2, h3 {
+	line-height: 4rem;
+}
+
+h1 {
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 2.6rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+dt { 
+	float: left; 
+	clear: left; 
+	width: 160px; 
+	text-align: left;
+	color: #417781;
+} 
+
+dd { 
+	margin: 0 0 0 170px; 
+	padding: 0 0 0.2em 0; 
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #00868B;
+}
+
+.site-header a, .site-header a:link, .site-header a:visited, .site-header a:active {
+	text-decoration: none;
+	color:inherit;
+}
+
+img.left {
+	transform: rotate(-10deg) translate(10px);
+}
+
+img.right {
+	transform: rotate(10deg) translate(-10px);
+}
+
+.hidden {
+	display: none  !important;
+}
+
+.no-upcoming-concerts {
+	margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+	.instrument {
+		display: none;
+	}
+	
+	.no-upcoming-concerts {
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 850px) {
+	html {
+		font-size: 50%
+	}
+	
+	nav#collapsed {
+		float: right;
+		margin: 1rem;
+	}
+	
+	nav#expanded {
+		display: none;
+		margin: 0 2rem;
+	}
+
+	nav#expanded li {
+		display : block;
+		text-align: center;
+		clear: both;
+		padding: 0.5rem 0;
+		border-top: 1px dotted #959492;
+	}
+			
+	.company-name {
+		letter-spacing: 0.9rem; 
+	}
+	
+	.no-upcoming-concerts {
+		margin-left: 20px;
+	}
+
+       img.desktop {
+		display: none;
+	}
+
+       img.mobile {
+		display: inline;
+		width: auto;
+	}
+
+}	
+
+@media (min-width: 850px) {
+
+	nav#expanded {
+		float: right;
+		display: block;
+	}
+	
+	nav#collapsed {
+		display: none;
+	}
+		
+	nav#expanded li {
+		display : inline-block;
+		text-align: center;
+	}
+	
+       img.desktop {
+		display: inline;
+	}
+
+       img.mobile {
+		display: none;
+	}
+}
+
+@media (min-width: 850px) and (max-width: 1068px) {
+		
+	nav#expanded li {
+		width:10rem;
+	}
+	
+	nav {
+		margin: 2rem 1rem 2rem 2rem;
+		padding: 1rem;
+	}
+
+	.company-name {
+		letter-spacing: 0.9rem; 
+	}
+
+}
+
+@media (min-width: 1068px) {
+		
+	nav#expanded li {
+		width:13.0rem;
+	}
+	
+	nav {
+		margin: 2rem;
+		padding: 1rem;
+	}
+
+	.company-name {
+		letter-spacing: 1.6rem; 
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -2.5em; /* the bottom margin is the negative value of the footer's height */
+}
+
+footer, .push {
+	height: 2.5em; /* '.push' must be the same height as 'footer' */
+	text-align: center;
+}
+
+footer div {
+	display: inline;
+}
+
+.twitter-follow-button {
+	margin-left: 2em;
+}
+
+div#gallery {
+  margin:2em 0;
+  display:none;
+}
+
+/* Use padding to create a 1:1 aspect ratio */
+    .svg-fix {
+        height: 0;
+        padding-bottom: 140%;
+        position: relative;
+    }
+/* Use positioning to make the SVG fit the ratio */
+    .svg-fix svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+	
+	/* 2015 Composers' Day  Start*/
+ol.simple-list {     
+    margin: 0;
+    margin-left: 1.5em;
+    padding: 0;     
+    counter-reset: li-counter;
+}
+
+ol.simple-list > li {
+    margin-bottom: 1.5em;
+}
+
+ol.simple-list ul {     
+    margin-left: 1em;
+	list-style-type: square;    
+}
+
+span.title {
+	color: #417781;
+}
+
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
+/* 2015 Composers' Day End*/
+
+/* 2015 Sangeeth Samraat Start */
+.category-last {
+	border-bottom: 1px solid #DBD3A9; 	
+}
+
+.finals-selected {
+	font-weight: bold;
+	color: #417781;
+}
+
+/* 2015 Sangeeth Samraat End */
+
+.boxed {
+	background-color: #D2E6A1;
+	border : 1px solid #E6E2D9;
+        margin: 2em 0em 2em 0em;
+        padding: 0em 1.6rem 0em 1.6rem;
+}
+
+/* composers-day */
+
+.composers-day {
+	max-width: 800px;
+	padding-bottom: 3em;
+	clear: both;
+	word-wrap: break-word;
+}

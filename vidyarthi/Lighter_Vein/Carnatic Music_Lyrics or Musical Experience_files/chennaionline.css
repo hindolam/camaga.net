@@ -1,0 +1,444 @@
+#fixme {
+	RIGHT: 0px; BOTTOM: 0px; POSITION: absolute
+}
+UNKNOWN {
+	POSITION: fixed
+}
+BODY {
+	MARGIN: 0px
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffffff; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, Arial, sans-seri1f
+}
+A.title:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.title:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.title:active {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.title:hover {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ff0000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, Arial, sans-seri1f
+}
+A.title1:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.title1:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.title1:active {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.title1:hover {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.subtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, Arial, sans-seri1f
+}
+A.subtitle:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.subtitle:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.subtitle:active {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+A.subtitle:hover {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.subtitle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.subtitle1:visited {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.subtitle1:link {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.subtitle1:active {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+A.subtitle1:hover {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+.features {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.features:visited {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.features:link {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.features:active {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+A.features:hover {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+.today {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.today:visited {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.today:link {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+A.today:active {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+A.today:hover {
+	COLOR: #008f75; TEXT-DECORATION: underline
+}
+.subtitle2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.subtitle2:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subtitle2:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subtitle2:active {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+A.subtitle2:hover {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+.nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.nav A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.nav A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.nav A:active {
+	COLOR: #ffde00; TEXT-DECORATION: underline
+}
+.nav A:hover {
+	COLOR: #ffde00; TEXT-DECORATION: underline
+}
+.nav1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.nav1 A:visited {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.nav1 A {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.nav1 A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.nav1 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.body {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+A.body:visited {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.body:link {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+A.body:active {
+	COLOR: #0061be; TEXT-DECORATION: none
+}
+A.body:hover {
+	COLOR: #0061be; TEXT-DECORATION: none
+}
+.body1 {
+	FONT-SIZE: 11px; COLOR: #666666; LINE-HEIGHT: 13px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.body1 A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.body1 A {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.body1 A:active {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+.body1 A:hover {
+	COLOR: #333399; TEXT-DECORATION: underline
+}
+.body2 {
+	FONT-SIZE: 11px; COLOR: #333399; LINE-HEIGHT: 13px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.body2 A:visited {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.body2 A {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.body2 A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.body2 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.more {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #0061be; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.more:visited {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+A.more:link {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+A.more:active {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+A.more:hover {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.more1 {
+	FONT-SIZE: 10px; COLOR: #0061be; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+A.more1:visited {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+A.more1:link {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+A.more1:active {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+A.more1:hover {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #0061be; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+.footer A:visited {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+.footer A:link {
+	COLOR: #0061be; TEXT-DECORATION: underline
+}
+.footer A:active {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.footer A:hover {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.footer1 {
+	FONT-SIZE: 10px; COLOR: #666666; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, verdana, sans-seri1f
+}
+.footer1 A:visited {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.footer1 A:link {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.footer1 A:active {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.footer1 A:hover {
+	COLOR: #e80614; TEXT-DECORATION: none
+}
+.spllink {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #bb0246; LINE-HEIGHT: 13px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.spllink A:visited {
+	COLOR: #bb0246; TEXT-DECORATION: none
+}
+.spllink A {
+	COLOR: #bb0246; TEXT-DECORATION: none
+}
+.spllink A:active {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.spllink A:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.submit {
+	BORDER-RIGHT: #2c5ba8 1px solid; BORDER-TOP: #2c5ba8 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #2c5ba8 1px solid; COLOR: #2c5ba8; BORDER-BOTTOM: #2c5ba8 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 18px; BACKGROUND-COLOR: #ecf0f6
+}
+.nlist {
+	PADDING-RIGHT: 0px; LIST-STYLE: none url(/colnewsnew/images/dot.gif) outside; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 5px 15px; COLOR: #5a5a5a; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.nlist LI {
+	PADDING-LEFT: 5px; MARGIN: 2px 0px
+}
+.nlist A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.nlist A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.nlist A:active {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.nlist A:hover {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.download {
+	FONT-SIZE: 10px; COLOR: #000099; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.download:link {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A.download:visited {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A.download:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.download:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.imgbor {
+	PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.font-family {
+	PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(/colnewsnew/images/navbg.gif)
+}
+.lnav01 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; PADDING-BOTTOM: 2px; COLOR: #000000; LINE-HEIGHT: 16px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Trebuchet MS, Tahoma, Arial, Helvetica, sans-serif
+}
+A.lnav01:link {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: #ffce8b 5px solid; COLOR: #000000; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+A.lnav01:visited {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: #ffce8b 5px solid; COLOR: #000000; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+A.lnav01:active {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: #f26522 5px solid; COLOR: #c92f2b; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #e7e7e8; TEXT-DECORATION: none
+}
+A.lnav01:hover {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: #f26522 5px solid; COLOR: #c92f2b; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #e7e7e8; TEXT-DECORATION: none
+}
+.channel {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #2caed4; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.channel:visited {
+	COLOR: #2caed4; TEXT-DECORATION: none
+}
+A.channel:link {
+	COLOR: #2caed4; TEXT-DECORATION: none
+}
+A.channel:active {
+	COLOR: #82733d; TEXT-DECORATION: underline
+}
+A.channel:hover {
+	COLOR: #82733d; TEXT-DECORATION: underline
+}
+.channel-1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #cc0000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.channel-1:visited {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.channel-1:link {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.channel-1:active {
+	COLOR: #82733d; TEXT-DECORATION: underline
+}
+A.channel-1:hover {
+	COLOR: #82733d; TEXT-DECORATION: underline
+}
+.channel-2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #f87434; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.channel-2:visited {
+	COLOR: #f87434; TEXT-DECORATION: none
+}
+A.channel-2:link {
+	COLOR: #f87434; TEXT-DECORATION: none
+}
+A.channel-2:active {
+	COLOR: #300065; TEXT-DECORATION: underline
+}
+A.channel-2:hover {
+	COLOR: #300065; TEXT-DECORATION: underline
+}
+.healthmar {
+	FONT-SIZE: 12px; COLOR: #0a2475; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+.healthmar A:visited {
+	COLOR: #0a2475; TEXT-DECORATION: none
+}
+.healthmar A {
+	COLOR: #0a2475; TEXT-DECORATION: none
+}
+.healthmar A:active {
+	COLOR: #feb311; TEXT-DECORATION: none
+}
+.healthmar A:hover {
+	COLOR: #feb311; TEXT-DECORATION: none
+}
+.photos {
+	BORDER-RIGHT: #dedeee 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #dedeee 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 0px 3px 0px 0px; BORDER-LEFT: #dedeee 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #dedeee 1px solid; BACKGROUND-COLOR: #fff
+}
+.Shaadi {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #10ad00; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.Shaadi:visited {
+	COLOR: #10ad00; TEXT-DECORATION: none
+}
+A.Shaadi:link {
+	COLOR: #10ad00; TEXT-DECORATION: none
+}
+A.Shaadi:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.Shaadi:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.Fropper {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.Fropper:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.Fropper:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.Fropper:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.Fropper:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.Makkaan {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #820063; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif
+}
+A.Makkaan:visited {
+	COLOR: #820063; TEXT-DECORATION: none
+}
+A.Makkaan:link {
+	COLOR: #820063; TEXT-DECORATION: none
+}
+A.Makkaan:active {
+	COLOR: #300065; TEXT-DECORATION: underline
+}
+A.Makkaan:hover {
+	COLOR: #300065; TEXT-DECORATION: underline
+}
+.home-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ff0000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-seri1f
+}
+A.home-header:visited {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.home-header:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.home-header:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.home-header:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}

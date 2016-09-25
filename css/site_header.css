@@ -1,0 +1,53 @@
+/* START NAV MENU */
+
+.site-header {
+	background: #417781;
+	color : #FFFDEE;
+}
+
+.company-name {
+	margin: 2rem;
+	float: left;
+	font-size: 3.3rem;
+	text-transform: uppercase;
+}
+
+.company-name img {
+	height: 2.4rem;
+	width: 2.4rem;
+}
+ 
+nav ul li a {
+	color : #FFFFFF;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+  
+#home .home, #concerts .concerts, #articles .articles, #contact .contact, #events .events, #member .member
+{
+	color: #FEFBB6;
+	pointer-events: none;
+	cursor: default;
+}
+
+#home .home:before, #concerts .concerts:before, #articles .articles:before, #contact .contact:before , #events .events:before, #member .member:before  
+{
+	content: "/";
+}
+
+.login-info {
+	color: #417781;
+	margin: .5rem 1.0rem 0rem 0rem;
+	text-align: right;
+	font-size: 1.2rem;
+} 
+
+.company-name a:hover {
+	font-weight: normal;
+}
+
+/* END NAV MENU */
+
+

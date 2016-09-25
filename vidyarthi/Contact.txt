@@ -1,0 +1,338 @@
+<html>
+
+
+<head>
+<script>
+function chkFspace(strtxt)
+{
+	str = strtxt
+	str1 = str.substring(0,1);
+	if (str1 == " ")
+	{
+		return true;
+	}
+	return false;
+}
+function val()
+{
+   if(document.myfrm.pname.value=="")
+    {
+            alert("Enter Name");
+            document.myfrm.pname.focus();
+            return false; 
+    }
+     if (chkFspace(document.myfrm.pname.value))
+ 	{
+		alert("Space not allowed as a first character in the name Field");
+		document.myfrm.pname.focus();
+		return false;
+	}
+   if(document.myfrm.pmail.value=="")
+    {
+            alert("Enter MailId");
+            document.myfrm.pmail.focus();
+            return false; 
+    }
+	 if (chkFspace(document.myfrm.pmail.value))
+ 	{
+		alert("Space not allowed as a first character in the email Field");
+		document.myfrm.pmail.focus();
+		return false;
+	}
+	var mail=document.myfrm.pmail.value;
+    if(mail.indexOf('@') <= 0 || mail.indexOf('.') <= 0)
+	{
+		alert("Enter a valid EMail ID");
+		document.myfrm.pmail.value="";
+		document.myfrm.pmail.focus();
+		return false;
+	}
+}
+function search()
+{
+var numo=document.myfrm_searchtxt.searchtxt.value;
+window.location="http://www.sangeetham.com/search/search.php3?searchtxt="+numo;
+}
+</script>
+
+<title>Sangeetham</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+
+<!--
+a:link{text-decoration: none; color: #000099;} 
+a:visited{text-decoration: none; color: #000099;} 
+a:active{text-decoration: none; color: #000099;} 
+a:hover{text-decoration: none; color: #9c0000;} 
+-->        
+</style>
+</head>
+
+<html>
+<head>
+<title>Sangeetham</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form name="myfrm_searchtxt" method="post">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"> 
+    <td height="105"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/y5.gif">
+        <tr align="left"> 
+          <td valign="top" height="0" width="0"> 
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" background='http://www.sangeetham.com/images/top/y5.gif'>
+              <tr>
+                <td valign="top">
+                  <table cellpadding="0" cellspacing="0" border="0" background="images/y_bg.gif" width="100%">
+                    <tr> 
+                      <td valign="top" width="13%" height="0" align="left"><img src="http://www.sangeetham.com/images/top/y1.gif" width="302" height="92" border="0" vspace="0" hspace="0"></td>
+                      <td width="87%" valign="top" height="0" align="left"> 
+                        <table cellpadding="0" cellspacing="0" width="278" height="0" border="0" vspace="0" hspace="0">
+                          <tr align="left"> 
+                            <td valign="top" height="21" width="0"><img src="http://www.sangeetham.com/images/top/y3.gif" width="477" height="25" border="0" vspace="0" hspace="0"></td>
+                          </tr>
+                          <tr> 
+                            <td height="65">
+                                <div align="center"><a href="http://www.sangeetham.com/scart/live.php3?scat=December%202002"><img src="http://www.sangeetham.com/images/banner.gif" width="468" height="60" border="0"></a></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" background="http://www.sangeetham.com/images/top/y_66.gif">
+              <tr> 
+                <td height="14" width="20%"><img src="http://www.sangeetham.com/images/top/y22.gif" width="252" height="36" border="0" vspace="0" hspace="0"></td>
+                <td height="14" width="21%"> 
+                  <table width="22%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td width="24%"> 
+                        <input type="text" name="searchtxt" size="10">
+                      </td>
+                      <td width="76%"><a href="javascript:search()"><img src="http://www.sangeetham.com/images/top/bt_search.gif" width="30" height="36" border="0" vspace="0" hspace="0"></a></td>
+                    </tr>
+                  </table>
+                </td>
+                <td height="14" width="59%"> 
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr> 
+                      <td valign="top" width="0%" height="19"> 
+                        <div align="left"></div>
+                      </td>
+                      <td width="100%" height="19"> 
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+                          <tr> 
+                            <td nowrap>
+                              <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://www.sangeetham.com"><font color="#FFFFFF">Home</font></a></b></font></div>
+                            </td>
+                            <td nowrap><font face="Arial, Helvetica, sans-serif" size="2">I</font></td>
+                            <td nowrap> 
+                              <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://www.sangeetham.com/bboard/forumlist.php3"><font color="#FFFFFF">BBoard</font></a></b></font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">I</font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://www.sangeetham.com/others/archive.php3?fea=editorial&pass=yes"><font color="#FFFFFF">Editorial</font></a></b></font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">I</font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://www.sangeetham.com/others/aboutus.php3"><font color="#FFFFFF">About 
+                                Us</font></a></b></font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">I</font></div>
+                            </td>
+                            <td nowrap> 
+                              <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="http://www.sangeetham.com/others/askus.php3"><font color="#FFFFFF">Ask 
+                                Us</font></a></b></font></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" bgcolor='#F7F7F7' cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td>
+            <table cellpadding="0" cellspacing="0" border="0" bgcolor="#F7F7F7" align="center" width="100%">
+              <tr> 
+                <td nowrap><a href="http://www.sangeetham.com/others/direc.php3"><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b>Links</b></font></div> 
+                  </a></td>
+                <td nowrap><!--<a href="http://www.sangeetham.com/others/archives.php3?fea=raaga appreciation&amp;idnum=no">!--><a href="http://www.sangeetham.com/others/archive.php3?fea=raaga%20appreciation"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'> 
+                  I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Raaga</b></font></div> </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/sregister.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b>Newsletter</b></font></div> 
+                  </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/trinity.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'> 
+                  I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Trinity</b></font></div> </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/archive.php3?fea=personalities"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Personalities</b></font></div> </a></td>
+                  <td nowrap><a href="http://www.sangeetham.com/others/m_perlist.php3"> 
+                    <div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b>Profile</b></font></div> 
+                    </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/archive.php3?fea=sangeetham%20newbie"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Newbie</b></font></div> </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/archive.php3?fea=tukkada"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I 
+                  </font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b>Tukkada</b></font></div> 
+                  </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/quiz.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Quiz</b></font></div> </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/krithis.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Krithis</b></font></div> </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/downloads.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Downloads</b></font></div> </a></td>
+                <td nowrap ><a href="http://www.sangeetham.com/scart/home.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                   Store </b></font></div> 
+                  </a></td>
+                <td nowrap><a href="http://www.sangeetham.com/others/main.php3"><div align='center'><font face='Arial, Helvetica, sans-serif' size='2' color='#FF6600'>I</font><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'><b> 
+                  Archive</b></font></div> </a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html><form name="myfrm" method="post" action="askus.php3">
+<div align="center"> 
+<table width="98%" border="0" cellpadding="0" cellspacing="0" align="center">    
+    <tr>
+      <td colspan="3" width="100%">         
+          <table border="0" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" vspace="0" hspace="0" align="center" width="100%">
+            <tr valign="top"> 
+              <td colspan="3" height="106"> 
+                <div align="center"> 
+                  <table width="95%" border="0">
+                    <tr> 
+                      <td height="62" colspan="2"> <div align='center'><font size='2' face='Arial, Helvetica, sans-serif'><b><font size='3' color='#000000'>Ask 
+                        Us </font></b></font></div> </td>
+                    </tr>
+                    <tr valign="middle"> 
+                      <td height="34" colspan="2"> 
+                        <table border=0 align="center" width="85%" height="303">
+                          <tr colspan=3> <p align='justify'><font size='2' face='Arial, Helvetica, sans-serif' color='#000000'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            This is a page that is exclusively left for the user 
+                            to enter his/her queries/articles regarding music. 
+                            We also invite suggestions about this site. We will 
+                            try to answer your queries within fifteen days from 
+                            the date of receipt. <br></font></p> </tr>
+                          <tr></tr>
+                          <tr rowspan=3> 
+                            <td width="48%"> 
+                              <textarea name="ta1" rows="8" cols ="40" wordwrap="" wrap="VIRTUAL"></textarea>
+                            </td>
+                            <td width="3%">&nbsp;&nbsp;</td>
+                            <td width="49%" nowrap> <br>
+                              <br>
+                              <br>
+                              <br>
+                              <table width="100%" border="0" height="63">
+                                <tr> 
+                                  <td width="64%" valign="bottom" height="44"><p align='justify'><font face='Arial, Helvetica, sans-serif' size='2' color='#CC6600'><b>Name 
+                                    :&nbsp;</b></font></p><font color="#FFCC33"> 
+                                    </font></td>
+                                  <td width="36%" height="44"><font color="#FFCC33"> 
+                                    <input type="text" name="pname">
+                                    </font></td>
+                                </tr>
+                                <tr> 
+                                  <td width="64%" height="56" valign="bottom"><p align='justify'><font face='Arial, Helvetica, sans-serif' size='2' color='#CC6600'><b>E-mail 
+                                    ID :</b></font></p><font color="#D29106" face="Verdana, Arial, Helvetica, sans-serif" size="2"></font></td>
+                                  <td width="36%" height="56"><font color="#D29106" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                                    <input type="text" name="pmail">
+                                    </font></td>
+                                </tr>
+                              </table>
+                              <br>
+                              <font color="#D29106" face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+                              </font> <br>
+                              <br>
+                              <br>
+                              <center>
+                                <input type="submit" name="register" value="Register" onClick="return val()">
+                                <input type="reset" name="clear" value="Clear All">
+                              </center>
+                            </td>
+                          </tr>
+                        </table>
+                        <br>
+                        <center>
+                        </center>
+                         <br>
+                        <p align="justify"><font face="Arial, Helvetica, sans-serif" size="2" color="#003399"> 
+                          </font></p>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2" height="2"> 
+                        <div align="center"></div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <tr valign="top"> 
+              <td colspan="3" height="2">	<table width='100%' border='0' cellpadding='0' cellspacing='0' vspace='0' hspace='0' bgcolor='#FFCC33'>
+	
+	              
+  <tr bgcolor="#FF784A"> 
+    <td colspan='3' height="19"> <!--<script language='JavaScript' src='http://www.sangeetham.com/bboard/jssource/botlnk.js'></script>--> 
+      <div align="center"><a href="http://www.broadgateindia.com"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="1">Site 
+        Developed and Hosted by Broadgate Technical Services India (P).Ltd.</font></a> 
+      </div>
+    
+  </tr>
+	
+            </table>
+            
+         <table width="100%">
+	                 <tr> 
+	                   <td> <div align='center'><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'>Copyright &copy; Sangeetham Dotcom 
+	                     Infotech Pvt. Ltd. All rights reserved. </font></div> 
+	                   </td>
+	                 </tr>
+	                 <tr> 
+	                   <td height="8"> <div align='center'><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'>Reproduction in any 
+	                     manner, in whole or part is prohibited unless by prior written 
+	                     permission.<div align='center'><font size='1' face='Verdana, Arial, Helvetica, sans-serif' color='#666666'> </td>
+	                 </tr>
+            </table></td>
+            </tr>
+          </table>      </td>
+    </tr>
+  </table>
+
+
+
+  
+
+</div>
+        </form>
+
+
+</body>
+
+
+</html>
+
+
+

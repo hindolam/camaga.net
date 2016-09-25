@@ -1,0 +1,38 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+Redirect /default.php /home/
+
+# Only when user tries to access .login, ask user for authentication
+<Files login>
+AuthType Basic
+AuthName "CAMAGA Protected Area"
+AuthUserFile  add .htpasswd location
+Require valid-user
+</Files>
+
+<Files createForm.php>
+AuthType Basic
+AuthName "CAMAGA Protected Area"
+AuthUserFile  add .htpasswd location
+Require valid-user
+</Files>
+
+<Files editForm.php>
+AuthType Basic
+AuthName "CAMAGA Protected Area"
+AuthUserFile  add .htpasswd location
+Require valid-user
+</Files>
+
+<Limit POST PUT DELETE>
+AuthType Basic
+AuthName "CAMAGA Protected Area"
+AuthUserFile  add .htpasswd location
+Require valid-user
+</Limit>
+
+# If user is already authenticated, redirect to main page
+RewriteEngine on
+RewriteRule ^login$ /home/ [R]
+
+

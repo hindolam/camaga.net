@@ -1,0 +1,297 @@
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #a20000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #666
+}
+A:hover {
+	COLOR: #1e5dcc; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #a20000; TEXT-DECORATION: none
+}
+.homeHead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 15px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 20px; PADDING-TOP: 5px; BORDER-BOTTOM: #000 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.homeHead A {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #a20000; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.homeHead A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.newsHome {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 20px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Tahoma, Verdana, Segoe UI, Arial; LIST-STYLE-TYPE: none
+}
+A.newsHome:link {
+	PADDING-LEFT: 0px; COLOR: #232323; LIST-STYLE-TYPE: none; TEXT-DECORATION: underline
+}
+A.newsHome:visited {
+	PADDING-LEFT: 0px; COLOR: #232323; LIST-STYLE-TYPE: none; TEXT-DECORATION: underline
+}
+A.newsHome:active {
+	PADDING-LEFT: 0px; COLOR: #1e5898; LIST-STYLE-TYPE: none; TEXT-DECORATION: none
+}
+A.newsHome:hover {
+	PADDING-LEFT: 0px; COLOR: #1e5898; LIST-STYLE-TYPE: none; TEXT-DECORATION: none
+}
+.homeAbstract {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.homeAbstract A {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #1e5dcc; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.homeAbstract A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #3c3c3c; LINE-HEIGHT: 20px; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.newscathead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #c80000; LINE-HEIGHT: 18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.newscathead A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.newscathead A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #a20000; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.homecathead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 15px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 20px; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.videohead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #015fa9; LINE-HEIGHT: 20px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.cathead {
+	PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 18px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 35px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.cathead A {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.cathead A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #1e5dcc; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.videohome {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #565656; LINE-HEIGHT: 15px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.videohome A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #565656; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.videohome A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #015fa9; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.hometitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #3c3c3c; LINE-HEIGHT: 18px; PADDING-TOP: 10px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.hometitle A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.hometitle A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3c3c3c; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.hometext {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #1f1f1f; LINE-HEIGHT: 18px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.hometext A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1f1f1f; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.hometext A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #377dc2; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.footerhead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #2c2c2c; LINE-HEIGHT: 20px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; HEIGHT: 20px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.footerhead A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #2c2c2c; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.footerhead A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.footertext {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #3c3c3c; LINE-HEIGHT: 18px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.footertext A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #707070; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.footertext A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.footer {
+	PADDING-RIGHT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 11px; MARGIN: 0px; COLOR: #2c2c2c; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.footer A {
+	COLOR: #2c2c2c; TEXT-DECORATION: none
+}
+.footer A:hover {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+.h1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 18px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #377ec2; LINE-HEIGHT: 24px; PADDING-TOP: 15px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.h1 A {
+	COLOR: #377ec2; TEXT-DECORATION: none
+}
+.h1 A:hover {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+.h2 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 18px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #c80000; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.h2 A {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+.h2 A:hover {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+.newsindex {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.newsindex A {
+	FONT-WEIGHT: bold; COLOR: #377ec2; TEXT-DECORATION: none
+}
+.newsindex A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.newsbody {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 20px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.newsbody A {
+	COLOR: #4a4a4a; TEXT-DECORATION: underline
+}
+.newsbody A:hover {
+	COLOR: #c80000; TEXT-DECORATION: none
+}
+UNKNOWN {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/white-bg.gif); PADDING-BOTTOM: 1px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.more {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: #c80000; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma
+}
+.more A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #015fa9; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.more A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #343434; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.morenews {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 10px; COLOR: #015fa9; LINE-HEIGHT: 25px; MARGIN-RIGHT: 10px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-ALIGN: right
+}
+.morenews A {
+	BORDER-RIGHT: #015fa9 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #015fa9 1px solid; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN-LEFT: 5px; BORDER-LEFT: #015fa9 1px solid; COLOR: #015fa9; MARGIN-RIGHT: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #015fa9 1px solid; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.morenews A:hover {
+	BORDER-RIGHT: #015fa9 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #015fa9 1px solid; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #015fa9; PADDING-BOTTOM: 5px; MARGIN-LEFT: 5px; BORDER-LEFT: #015fa9 1px solid; COLOR: #fff; MARGIN-RIGHT: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #015fa9 1px solid; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.author {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 10px; COLOR: #015fa9; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma
+}
+.author A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #c80000; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.author A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0034c6; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, "Segoe UI", Tahoma; TEXT-DECORATION: none
+}
+.flashnews {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #707070; LINE-HEIGHT: 21px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana; HEIGHT: 21px
+}
+.flashnews A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #707070; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana; TEXT-DECORATION: none
+}
+.flashnews A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #0034c6; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana; TEXT-DECORATION: underline
+}
+.empty5 {
+	HEIGHT: 5px
+}
+.btsub {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #0034c6; LINE-HEIGHT: 20px; PADDING-TOP: 5px; FONT-FAMILY: Segoe UI, Tahoma, Verdana, Arial
+}
+A.btsub:link {
+	COLOR: #0034c6; TEXT-DECORATION: none
+}
+A.btsub:visited {
+	COLOR: #0034c6; TEXT-DECORATION: none
+}
+A.btsub:active {
+	COLOR: #cf0000; TEXT-DECORATION: underline
+}
+A.btsub:hover {
+	COLOR: #cf0000; TEXT-DECORATION: underline
+}
+.welcome {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 0px; COLOR: #ffffff; LINE-HEIGHT: 20px; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana; LETTER-SPACING: 17px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.content_title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 10px; TEXT-TRANSFORM: uppercase; COLOR: #990033; LINE-HEIGHT: 25px; PADDING-TOP: 10px; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana
+}
+.homeheadtamil {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-TRANSFORM: uppercase; COLOR: #990033; LINE-HEIGHT: 20px; FONT-STYLE: normal; FONT-FAMILY: Segoe UI, Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.hometexttamil {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 10px; COLOR: #000000; LINE-HEIGHT: 20px; PADDING-TOP: 10px; FONT-FAMILY: "Segoe UI", Tahoma, Verdana, Arial
+}
+.headmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 0px; FONT-FAMILY: "Segoe UI", Tahoma, Arial, Verdana; TEXT-DECORATION: none
+}
+.headmenu A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; PADDING-TOP: 0px; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.headmenu A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #feb700; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.comments {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #565656; LINE-HEIGHT: 18px; PADDING-TOP: 10px; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.comments A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.comments A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #a20000; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.comments {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #565656; LINE-HEIGHT: 18px; PADDING-TOP: 10px; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.comments A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.comments A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #a20000; BORDER-BOTTOM: #c5c5c5 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.imageright {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; MARGIN-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; MARGIN-RIGHT: 10px; BORDER-BOTTOM: #000 1px solid
+}
+.imageleft {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; MARGIN-BOTTOM: 2px; MARGIN-LEFT: 10px; BORDER-LEFT: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+.homeMoreLink {
+	PADDING-RIGHT: 10px; BORDER-TOP: #999 1px dotted; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #1e5dcc; LINE-HEIGHT: 20px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; BACKGROUND-COLOR: #fff; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.homeMoreLink A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1e5dcc; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.homeMoreLink A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.sub {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #555555; FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.centercell {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+.videohometext {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #1f1f1f; LINE-HEIGHT: 18px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.videohometext A {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #1f1f1f; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.videohometext A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #377dc2; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.morevideos {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #565656; LINE-HEIGHT: 15px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.morevideos A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3c3c3c; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}
+.morevideos A:hover {
+	FONT-SIZE: 12px; COLOR: #377dc2; BORDER-BOTTOM: #3c3c3c 1px dotted; FONT-FAMILY: Arial, Verdana, Tahoma; TEXT-DECORATION: none
+}

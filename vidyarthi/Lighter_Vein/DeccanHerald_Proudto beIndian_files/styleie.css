@@ -1,0 +1,84 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; FONT-SIZE: 12px; SCROLLBAR-TRACK-COLOR: #eeeeee; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,Geneva,sans-serif
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.a1:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.a1:visited {
+	COLOR: #c1a562; TEXT-DECORATION: none
+}
+A.a1:active {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.a1:hover {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.a2:link {
+	COLOR: #400080; TEXT-DECORATION: none
+}
+A.a2:visited {
+	COLOR: #003333; TEXT-DECORATION: none
+}
+A.a2:active {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.a2:hover {
+	COLOR: #400080; TEXT-DECORATION: underline
+}
+.cathead1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,Geneva,sans-serif; BACKGROUND-COLOR: transparent
+}
+.heading1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 22px; COLOR: #400080; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,Geneva,sans-serif; BACKGROUND-COLOR: transparent
+}
+.heading2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,Geneva,sans-serif; BACKGROUND-COLOR: transparent
+}
+.bylineheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,Geneva,sans-serif; BACKGROUND-COLOR: transparent
+}
+.combo1 {
+	WIDTH: 100px
+}
+.t1 {
+	FONT-SIZE: 10pt; COLOR: #990000; FONT-FAMILY: verdana,tahoma,arial
+}
+TD {
+	FONT-SIZE: 10pt; COLOR: #003322; FONT-FAMILY: verdana,tahoma,arial
+}
+DIV {
+	FONT-SIZE: 10pt; COLOR: #003322; FONT-FAMILY: verdana,tahoma,arial
+}
+B {
+	FONT-SIZE: 10pt; COLOR: #003322; FONT-FAMILY: verdana,tahoma,arial
+}
+INPUT.i1 {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+INPUT.i2 {
+	BORDER-RIGHT: #000000 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 0px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 0px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 0px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+text {
+	BORDER-RIGHT: #000000 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 0px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 0px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 0px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BORDER-RIGHT: #000000 0px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000000 0px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 0px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 0px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
